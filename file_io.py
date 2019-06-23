@@ -1,0 +1,11 @@
+with open("abc.txt", "w") as file_handle:
+    file_handle2 = open("greet.txt", "w")
+    file_handle2.write('Hi Python')
+    file_handle2.write('Hi Python')
+    file_handle2.write('Hi Python')
+    file_handle2.close()
+    file_handle.write("Hello, world!")
+    file_handle.write("Hello, world!")
+    file_handle.write("Hello, world!")
+    file_handle.write("Hello, world!")
+    file_handle.write("Hello, world!")
